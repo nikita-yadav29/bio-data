@@ -1,6 +1,6 @@
 # Nikita Yadav — Marriage Biodata
 
-Standalone marriage biodata for **Nikita Yadav** — B.Tech Biotechnology Silver Medalist, Medical Coder at CorroHealth.
+Enhanced marriage biodata for **Nikita Yadav** — B.Tech Biotechnology Silver Medalist, Medical Coder at CorroHealth.
 
 **Live site:** [nikita-yadav29.github.io/bio-data](https://nikita-yadav29.github.io/bio-data/)
 
@@ -11,7 +11,21 @@ Standalone marriage biodata for **Nikita Yadav** — B.Tech Biotechnology Silver
 | File | Purpose |
 |------|---------|
 | `index.html` | Nikita's biodata (main page) |
-| `styles.css` | Heritage Gold design system |
+| `styles.css` | Rose-gold bride design system |
+| `script.js` | Tabs, photo carousel, sacred quotes |
+| `optimize-images.py` | Compress photos into `pic/web/` |
+| `pic/` | Original high-res photographs |
+| `pic/web/` | Web-optimized images (generated) |
+
+---
+
+## Regenerate Web Images
+
+After adding or replacing photos in `pic/`:
+
+```bash
+python optimize-images.py
+```
 
 ---
 
@@ -26,12 +40,9 @@ Standalone marriage biodata for **Nikita Yadav** — B.Tech Biotechnology Silver
 
 Update fields marked **"To be updated"** in `index.html`:
 
-- Date / time / place of birth
-- Height, complexion, blood group
+- Height, complexion
 - Gotra, Rashi, Nakshatra, Manglik
-- Phone number
-
-Add photos by uncommenting the `<img>` tag and replacing gallery placeholders.
+- Phone number (if desired)
 
 ---
 

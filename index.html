@@ -8,308 +8,311 @@
   <meta name="description"
     content="Marriage biodata of Nikita Yadav — B.Tech Biotechnology Silver Medalist, Medical Coder, Yadav family Varanasi." />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="preload" as="image" href="pic/web/profile.jpg" fetchpriority="high" />
 </head>
 
 <body class="theme-bride">
 
-  <div class="toolbar">
-    <a href="https://nikita-yadav29.github.io/portfolio/" target="_blank" rel="noopener noreferrer">← Portfolio</a>
-    <div style="display:flex;gap:0.5rem;">
-      <a href="https://www.linkedin.com/in/nikita-yadav-793917215/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <button class="print-btn" onclick="window.print()">🖨 Print / Save PDF</button>
-    </div>
-  </div>
+  <main class="biodata-app">
 
-  <div class="biodata-page">
-    <article class="biodata-sheet">
+    <header class="sacred-header" aria-label="Sacred wisdom">
+      <span class="sacred-om" aria-hidden="true">ॐ</span>
+      <div class="sacred-quote-wrap">
+        <blockquote class="sacred-quote active" data-index="0">
+          <p class="quote-sanskrit">यत्र नार्यस्तु पूज्यन्ते रमन्ते तत्र देवताः</p>
+          <p class="quote-meaning">Where women are honored and respected, there the divine powers rejoice and dwell.</p>
+          <cite class="quote-source">— Manusmriti 3.56</cite>
+        </blockquote>
+        <blockquote class="sacred-quote" data-index="1">
+          <p class="quote-sanskrit">ॐ सह नाववतु · सह नौ भुनक्तु · सह वीर्यं करवावहै</p>
+          <p class="quote-meaning">May we be protected together, grow together, and strive together with united strength.</p>
+          <cite class="quote-source">— Taittiriya Upanishad · Shanti Mantra</cite>
+        </blockquote>
+        <blockquote class="sacred-quote" data-index="2">
+          <p class="quote-sanskrit">वसुधैव कुटुम्बकम्</p>
+          <p class="quote-meaning">The whole world is one family — in marriage, two families unite into one sacred bond.</p>
+          <cite class="quote-source">— Maha Upanishad 6.71</cite>
+        </blockquote>
+        <blockquote class="sacred-quote" data-index="3">
+          <p class="quote-sanskrit">सर्वे भवन्तु सुखिनः · सर्वे सन्तु निरामयाः</p>
+          <p class="quote-meaning">May all be happy, may all be free from illness — a blessing for a harmonious married life.</p>
+          <cite class="quote-source">— Brihadaranyaka Upanishad · Universal Prayer</cite>
+        </blockquote>
+        <blockquote class="sacred-quote" data-index="4">
+          <p class="quote-sanskrit">धर्मो रक्षति रक्षितः</p>
+          <p class="quote-meaning">Righteousness protects those who uphold it — a life built on dharma brings lasting peace to a home.</p>
+          <cite class="quote-source">— Bhagavad Gita · Essence of Dharma</cite>
+        </blockquote>
+      </div>
+      <nav class="quote-dots" id="quoteDots" aria-label="Quote navigation"></nav>
+    </header>
 
-      <!-- Header -->
-      <header class="bio-header">
-        <div class="bio-om">ॐ</div>
-        <p class="bio-invocation">॥ श्री गणेशाय नमः ॥</p>
-        <p class="bio-title-en">Marriage Biodata · Bride</p>
-        <h1 class="bio-name">Nikita Yadav</h1>
-        <p class="bio-tagline">B.Tech Biotechnology · Silver Medalist · Medical Coder · Healthcare Analytics</p>
-      </header>
-
-      <!-- Photo + Quick Facts -->
-      <div class="bio-hero">
-        <div class="photo-main" id="mainPhoto">
-          <span class="photo-icon">📷</span>
-          <span class="photo-placeholder-text">Main Photo<br /><small>Replace photo.jpg</small></span>
-          <!-- <img src="photo.jpg" alt="Nikita Yadav" /> -->
+    <section class="hero-banner">
+      <div class="hero-profile">
+        <div class="profile-frame">
+          <div class="profile-ring">
+            <img src="pic/web/profile.jpg" alt="Nikita Yadav" class="profile-photo" width="340" height="340"
+              decoding="async" fetchpriority="high" />
+          </div>
+          <span class="achievement-badge">Silver Medalist</span>
         </div>
-        <div class="quick-facts">
-          <div class="fact-item">
-            <span class="fact-label">जन्म तिथि</span>
-            <span class="fact-label-en">Date of Birth</span>
-            <span class="fact-value placeholder">To be updated</span>
+      </div>
+      <div class="hero-content">
+        <p class="hero-invocation">॥ श्री गणेशाय नमः ॥</p>
+        <p class="hero-label">Marriage Biodata · Bride</p>
+        <h1 class="hero-name">Nikita Yadav</h1>
+        <p class="hero-role">Medical Coder · Healthcare Analytics</p>
+        <p class="hero-org">Currently at <strong>CorroHealth</strong> · Noida</p>
+        <p class="hero-tagline">B.Tech Biotechnology · Silver Medalist · Yadav Family · Varanasi</p>
+        <div class="hero-chips">
+          <span class="hero-chip gold">🏅 UP Governor's Silver Medal</span>
+          <span class="hero-chip">Branch Topper</span>
+          <span class="hero-chip">Healthcare &amp; Life Sciences</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel panel-info">
+      <nav class="tab-nav" role="tablist">
+        <button class="tab active" role="tab" data-tab="personal" aria-selected="true">Personal</button>
+        <button class="tab" role="tab" data-tab="career">Education &amp; Career</button>
+        <button class="tab" role="tab" data-tab="family">Family</button>
+        <button class="tab" role="tab" data-tab="partner">Partner</button>
+        <button class="tab" role="tab" data-tab="photos">Photos</button>
+      </nav>
+
+      <div class="tab-panel active" id="tab-personal" role="tabpanel">
+        <h3 class="section-title">About Me · परिचय</h3>
+        <p class="about-text">A modern young woman deeply connected to her roots — confident, self-assured, and guided by a strong sense of character that inspires and motivates those around her. I carry warmth and grace while standing firmly on my values, balancing professional ambition with traditional family ideals. I believe in respect, sincerity, and uplifting others through positivity and purpose. I enjoy cooking for loved ones, meaningful conversations, research, and continuous learning in science and healthcare. Looking for a life partner who shares similar values, respects individuality, and believes in growing together with trust and understanding.</p>
+
+        <h3 class="section-title">Personal Details · व्यक्तिगत विवरण</h3>
+        <div class="stat-cards">
+          <div class="stat-card">
+            <span class="stat-hi">जन्म तिथि</span>
+            <span class="stat-label">Date of Birth</span>
+            <span class="stat-value">29 July 2000</span>
           </div>
-          <div class="fact-item">
-            <span class="fact-label">ऊँचाई</span>
-            <span class="fact-label-en">Height</span>
-            <span class="fact-value placeholder">To be updated</span>
+          <div class="stat-card">
+            <span class="stat-hi">रक्त समूह</span>
+            <span class="stat-label">Blood Group</span>
+            <span class="stat-value">B+</span>
           </div>
-          <div class="fact-item">
-            <span class="fact-label">धर्म / जाति</span>
-            <span class="fact-label-en">Religion / Caste</span>
-            <span class="fact-value">Hindu · Yadav</span>
+          <div class="stat-card">
+            <span class="stat-hi">धर्म / जाति</span>
+            <span class="stat-label">Religion / Caste</span>
+            <span class="stat-value">Hindu · Yadav</span>
           </div>
-          <div class="fact-item">
-            <span class="fact-label">व्यवसाय</span>
-            <span class="fact-label-en">Occupation</span>
-            <span class="fact-value">Medical Coder · CorroHealth</span>
+          <div class="stat-card">
+            <span class="stat-hi">ऊँचाई</span>
+            <span class="stat-label">Height</span>
+            <span class="stat-value">5 ft 4 in</span>
           </div>
-          <div class="fact-item">
-            <span class="fact-label">शिक्षा</span>
-            <span class="fact-label-en">Education</span>
-            <span class="fact-value">B.Tech — Biotechnology</span>
+          <div class="stat-card">
+            <span class="stat-hi">वर्ण</span>
+            <span class="stat-label">Complexion</span>
+            <span class="stat-value">Wheatish (गेहुँआ)</span>
           </div>
-          <div class="fact-item">
-            <span class="fact-label">सम्मान</span>
-            <span class="fact-label-en">Achievement</span>
-            <span class="fact-value">Silver Medalist · UP Governor</span>
+          <div class="stat-card">
+            <span class="stat-hi">गोत्र</span>
+            <span class="stat-label">Gotra</span>
+            <span class="stat-value">Yatri</span>
           </div>
+          <div class="stat-card">
+            <span class="stat-hi">राशि</span>
+            <span class="stat-label">Rashi</span>
+            <span class="stat-value">Tula (Libra)</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-hi">नक्षत्र</span>
+            <span class="stat-label">Nakshatra</span>
+            <span class="stat-value">To be updated</span>
+          </div>
+        </div>
+
+        <h3 class="section-title">Lifestyle · रुचि</h3>
+        <div class="detail-banner">
+          <span class="detail-banner-key">Languages</span>
+          <span class="detail-banner-val">Hindi (Native) · English (Professional)</span>
+        </div>
+        <div class="detail-banner">
+          <span class="detail-banner-key">Hobbies &amp; Interests</span>
+          <span class="detail-banner-val">Cooking · Reading · Research · Data Science · Healthcare &amp; Life Sciences</span>
         </div>
       </div>
 
-      <div class="bio-body">
+      <div class="tab-panel" id="tab-career" role="tabpanel">
+        <h3 class="section-title">Current Role · वर्तमान पद</h3>
+        <div class="highlight-card">
+          <div class="highlight-badge">Present · CorroHealth</div>
+          <h3>Junior Executive — Medical Coding</h3>
+          <p class="highlight-org">CorroHealth · Noida, Uttar Pradesh</p>
+          <p class="highlight-desc">HCC Medical Coding · Healthcare Analytics · Oct 2024 – Present · ~1.8 years experience in healthcare coding &amp; analytics</p>
+        </div>
 
-        <!-- Personal Details -->
-        <section class="bio-section">
-          <div class="section-head">
-            <div class="section-icon">👤</div>
-            <div>
-              <h3>Personal Details</h3>
-              <span class="hindi">व्यक्तिगत विवरण</span>
+        <h3 class="section-title">Education · शिक्षा</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <strong>B.Tech — Biotechnology</strong>
+              <span>Dr. A.P.J. Abdul Kalam Technical University (APJAKTU) · 2020 – 2024</span>
             </div>
           </div>
-          <div class="detail-grid">
-            <div class="detail-row">
-              <span class="detail-key"><span class="hi">पूरा नाम</span>Full Name</span>
-              <span class="detail-val">Nikita Yadav</span>
-            </div>
-            <div class="detail-row">
-              <span class="detail-key"><span class="hi">जन्म समय</span>Time of Birth</span>
-              <span class="detail-val placeholder">To be updated</span>
-            </div>
-            <div class="detail-row">
-              <span class="detail-key"><span class="hi">जन्म स्थान</span>Place of Birth</span>
-              <span class="detail-val placeholder">To be updated</span>
-            </div>
-            <div class="detail-row">
-              <span class="detail-key"><span class="hi">वर्ण</span>Complexion</span>
-              <span class="detail-val placeholder">To be updated</span>
-            </div>
-            <div class="detail-row">
-              <span class="detail-key"><span class="hi">रक्त समूह</span>Blood Group</span>
-              <span class="detail-val placeholder">To be updated</span>
-            </div>
-            <div class="detail-row">
-              <span class="detail-key"><span class="hi">गोत्र</span>Gotra</span>
-              <span class="detail-val placeholder">To be updated</span>
-            </div>
-            <div class="detail-row">
-              <span class="detail-key"><span class="hi">राशि</span>Rashi</span>
-              <span class="detail-val placeholder">To be updated</span>
-            </div>
-            <div class="detail-row">
-              <span class="detail-key"><span class="hi">नक्षत्र</span>Nakshatra</span>
-              <span class="detail-val placeholder">To be updated</span>
-            </div>
-            <div class="detail-row">
-              <span class="detail-key"><span class="hi">मांगलिक</span>Manglik</span>
-              <span class="detail-val placeholder">To be updated</span>
-            </div>
-            <div class="detail-row">
-              <span class="detail-key"><span class="hi">भाषा</span>Languages</span>
-              <span class="detail-val">Hindi (Native) · English (Professional)</span>
-            </div>
-            <div class="detail-row full">
-              <span class="detail-key"><span class="hi">शौक / रुचि</span>Hobbies</span>
-              <span class="detail-val">Research · Data Science · Reading · Healthcare &amp; Life Sciences</span>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <strong>Silver Medalist — Hon'ble Governor of Uttar Pradesh</strong>
+              <span>Branch Topper · Academic Excellence Award</span>
             </div>
           </div>
-        </section>
+        </div>
 
-        <!-- Education & Career -->
-        <section class="bio-section">
-          <div class="section-head">
-            <div class="section-icon">🎓</div>
-            <div>
-              <h3>Education &amp; Career</h3>
-              <span class="hindi">शिक्षा एवं व्यवसाय</span>
+        <h3 class="section-title">Research &amp; Experience · अनुसंधान</h3>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <strong>Published Research Paper</strong>
+              <span>Green Synthesis of Silver Nanoparticles using <em>Neolamarckia cadamba</em></span>
             </div>
           </div>
-          <div class="detail-grid">
-            <div class="detail-row full">
-              <span class="detail-key"><span class="hi">शिक्षा</span>Education</span>
-              <span class="detail-val"><strong>B.Tech — Biotechnology</strong><br />
-                Dr. A.P.J. Abdul Kalam Technical University (APJAKTU) · 2020 – 2024<br />
-                <strong>Silver Medalist</strong> — Awarded by Hon'ble Governor of Uttar Pradesh · Branch Topper</span>
-            </div>
-            <div class="detail-row full">
-              <span class="detail-key"><span class="hi">वर्तमान पद</span>Current Role</span>
-              <span class="detail-val"><strong>Junior Executive</strong> — CorroHealth, Noida<br />
-                <small style="color:#5C4A3A;">Oct 2024 – Present · HCC Medical Coding · Healthcare Analytics</small></span>
-            </div>
-            <div class="detail-row full">
-              <span class="detail-key"><span class="hi">अनुभव</span>Experience</span>
-              <span class="detail-val">~1.8 Years · Healthcare Coding &amp; Analytics · Research Internship at BHU</span>
-            </div>
-            <div class="detail-row full">
-              <span class="detail-key"><span class="hi">अनुसंधान</span>Research</span>
-              <span class="detail-val">Published paper on Green Synthesis of Silver Nanoparticles using
-                <em>Neolamarckia cadamba</em> · BHU Molecular Biology Lab Internship (ELISA, PCR, DNA Extraction)</span>
-            </div>
-            <div class="detail-row full">
-              <span class="detail-key"><span class="hi">प्रमाणपत्र</span>Certifications</span>
-              <span class="detail-val">Data Science, ML, Deep Learning &amp; NLP Bootcamp · WHO — Drug Resistant TB
-                Treatment · ML Methods in Biology · Water Purification (HBTU)</span>
-            </div>
-            <div class="detail-row">
-              <span class="detail-key"><span class="hi">LinkedIn</span>Profile</span>
-              <span class="detail-val">linkedin.com/in/nikita-yadav-793917215</span>
-            </div>
-            <div class="detail-row">
-              <span class="detail-key"><span class="hi">Portfolio</span>Website</span>
-              <span class="detail-val">nikita-yadav29.github.io/portfolio</span>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <strong>BHU Molecular Biology Lab Internship</strong>
+              <span>ELISA · PCR · DNA Extraction</span>
             </div>
           </div>
-        </section>
+        </div>
 
-        <!-- Family Background -->
-        <section class="bio-section">
-          <div class="section-head">
-            <div class="section-icon">👨‍👩‍👧‍👦</div>
-            <div>
-              <h3>Family Background</h3>
-              <span class="hindi">पारिवारिक पृष्ठभूमि</span>
-            </div>
-          </div>
-          <div class="family-grid">
-            <div class="family-card">
-              <div class="family-relation">पिता · Father</div>
-              <div class="family-name">Sh. Dharamveer Yadav</div>
-              <div class="family-detail">Graduate · Working as LIC Agent · Respectable &amp; disciplined family head
-              </div>
-            </div>
-            <div class="family-card">
-              <div class="family-relation">माता · Mother</div>
-              <div class="family-name">Smt. Reeta Yadav</div>
-              <div class="family-detail">Graduate · Working in Health Department · Devoted homemaker who nurtured the
-                family ecosystem</div>
-            </div>
-            <div class="family-card">
-              <div class="family-relation">बड़ी बहन · Elder Sister</div>
-              <div class="family-name">Vinita Yadav</div>
-              <div class="family-detail">PhD in Mathematics · Master's in Data Science · Married</div>
-            </div>
-            <div class="family-card">
-              <div class="family-relation">जीजा · Brother-in-Law</div>
-              <div class="family-name">Prabhunath Yadav</div>
-              <div class="family-detail">Software Engineer at SAP</div>
-            </div>
-            <div class="family-card">
-              <div class="family-relation">बड़े भाई · Elder Brother</div>
-              <div class="family-name">Aman Yadav</div>
-              <div class="family-detail">B.Tech CSE · Sr. Full Stack Developer at Block Gemini, Noida</div>
-            </div>
-            <div class="family-card">
-              <div class="family-relation">छोटा भाई · Younger Brother</div>
-              <div class="family-name">Anuj Yadav</div>
-              <div class="family-detail">B.E. Computer Science &amp; Engineering · Project Manager in ERP domain</div>
-            </div>
-          </div>
-          <div class="detail-grid" style="margin-top:1rem;">
-            <div class="detail-row full">
-              <span class="detail-key"><span class="hi">पारिवारिक प्रकार</span>Family Type</span>
-              <span class="detail-val">Joint family values · Highly educated siblings (PhD, B.Tech, B.E.) ·
-                Middle-class, cultured &amp; progressive household</span>
-            </div>
-          </div>
-        </section>
+        <h3 class="section-title">Certifications · प्रमाणपत्र</h3>
+        <div class="skill-cloud">
+          <span>Data Science</span><span>Machine Learning</span><span>Deep Learning</span>
+          <span>NLP Bootcamp</span><span>WHO — Drug Resistant TB</span>
+          <span>ML in Biology</span><span>Water Purification (HBTU)</span>
+        </div>
 
-        <!-- Address -->
-        <section class="bio-section">
-          <div class="section-head">
-            <div class="section-icon">📍</div>
-            <div>
-              <h3>Address</h3>
-              <span class="hindi">पता</span>
-            </div>
-          </div>
-          <div class="detail-grid">
-            <div class="detail-row full">
-              <span class="detail-key"><span class="hi">वर्तमान पता</span>Current Address</span>
-              <span class="detail-val">Vindhyavasani Nagar Colony, Orderly Bazaar, Varanasi, Uttar Pradesh</span>
-            </div>
-            <div class="detail-row full">
-              <span class="detail-key"><span class="hi">स्थायी पता</span>Permanent Address</span>
-              <span class="detail-val">Village — Jiyapur, Post — Haraura, District — Azamgarh, Uttar Pradesh —
-                276126</span>
-            </div>
-            <div class="detail-row">
-              <span class="detail-key"><span class="hi">कार्य स्थल</span>Work Location</span>
-              <span class="detail-val">Noida, Uttar Pradesh</span>
-            </div>
-            <div class="detail-row">
-              <span class="detail-key"><span class="hi">मूल निवास</span>Native Place</span>
-              <span class="detail-val">Jiyapur, Azamgarh, UP</span>
-            </div>
-          </div>
-        </section>
+        <div class="detail-banner" style="margin-top: 0.75rem;">
+          <span class="detail-banner-key">Online Profiles</span>
+          <span class="detail-banner-val">linkedin.com/in/nikita-yadav-793917215 · nikita-yadav29.github.io/portfolio</span>
+        </div>
+      </div>
 
-        <!-- Partner Preferences -->
-        <section class="bio-section">
-          <div class="section-head">
-            <div class="section-icon">💫</div>
-            <div>
-              <h3>Partner Preferences</h3>
-              <span class="hindi">जीवनसाथी की अपेक्षाएँ</span>
-            </div>
-          </div>
-          <ul class="pref-list">
-            <li>Well-educated, well-settled groom</li>
-            <li>Understanding &amp; respectful nature</li>
-            <li>Graduate or professional degree holder</li>
-            <li>Decent &amp; cultured family background</li>
-            <li>Supportive of career &amp; aspirations</li>
-            <li>Preferably from Uttar Pradesh or willing to settle in India</li>
-          </ul>
-        </section>
+      <div class="tab-panel" id="tab-family" role="tabpanel">
+        <h3 class="section-title">Family Background · पारिवारिक पृष्ठभूमि</h3>
+        <div class="family-grid">
+          <article class="family-card">
+            <span class="family-rel">पिता · Father</span>
+            <h4>Sh. Dharamveer Yadav</h4>
+            <p>Graduate · LIC Agent · Respectable &amp; disciplined family head</p>
+          </article>
+          <article class="family-card">
+            <span class="family-rel">माता · Mother</span>
+            <h4>Smt. Reeta Yadav</h4>
+            <p>Graduate · Health Department · Devoted homemaker</p>
+          </article>
+          <article class="family-card">
+            <span class="family-rel">बड़ी बहन · Elder Sister</span>
+            <h4>Vinita Yadav</h4>
+            <p>PhD Mathematics · Master's Data Science · Married</p>
+          </article>
+          <article class="family-card">
+            <span class="family-rel">जीजा · Brother-in-Law</span>
+            <h4>Prabhunath Yadav</h4>
+            <p>Senior Software Engineer at SAP</p>
+          </article>
+          <article class="family-card">
+            <span class="family-rel">बड़े भाई · Elder Brother</span>
+            <h4>Aman Yadav</h4>
+            <p>B.Tech CSE · AI Full Stack Developer at Deloitte, Noida</p>
+          </article>
+          <article class="family-card">
+            <span class="family-rel">छोटा भाई · Younger Brother</span>
+            <h4>Anuj Yadav</h4>
+            <p>B.E. CSE · Product Manager in ERP domain</p>
+          </article>
+        </div>
+        <div class="detail-banner">
+          <span class="detail-banner-key">Family Type</span>
+          <span class="detail-banner-val">Joint family values · Highly educated siblings (PhD, B.Tech, B.E.) · Middle-class, cultured &amp; progressive household</span>
+        </div>
+      </div>
 
-        <!-- Photo Gallery Placeholders -->
-        <section class="bio-section">
-          <div class="section-head">
-            <div class="section-icon">🖼</div>
-            <div>
-              <h3>Photographs</h3>
-              <span class="hindi">फोटोग्राफ · Placeholders — replace with your images</span>
-            </div>
-          </div>
-          <div class="photo-gallery">
-            <div class="photo-thumb"><span class="photo-icon">📷</span>Photo 2</div>
-            <div class="photo-thumb"><span class="photo-icon">📷</span>Photo 3</div>
-            <div class="photo-thumb"><span class="photo-icon">📷</span>Photo 4</div>
-            <div class="photo-thumb"><span class="photo-icon">📷</span>Photo 5</div>
-          </div>
-        </section>
+      <div class="tab-panel" id="tab-partner" role="tabpanel">
+        <h3 class="section-title">Partner Preferences · जीवनसाथी की अपेक्षाएँ</h3>
+        <ul class="pref-list">
+          <li>Well-educated, well-settled groom</li>
+          <li>Understanding &amp; respectful nature</li>
+          <li>Graduate or professional degree holder</li>
+          <li>Decent &amp; cultured family background</li>
+          <li>Supportive of career &amp; aspirations</li>
+          <li>Preferably from Uttar Pradesh or willing to settle in India</li>
+        </ul>
 
-        <!-- Contact -->
-        <div class="bio-contact">
+        <h3 class="section-title">Address · पता</h3>
+        <div class="detail-rows">
+          <div class="detail-row-item">
+            <span class="detail-row-key">Current Address</span>
+            <span class="detail-row-val">Vindhyavasani Nagar Colony, Orderly Bazaar, Varanasi, Uttar Pradesh</span>
+          </div>
+          <div class="detail-row-item">
+            <span class="detail-row-key">Permanent Address</span>
+            <span class="detail-row-val">Village Jiyapur, Post Haraura, District Azamgarh, UP — 276126</span>
+          </div>
+          <div class="detail-row-item">
+            <span class="detail-row-key">Work Location</span>
+            <span class="detail-row-val">Noida, Uttar Pradesh</span>
+          </div>
+          <div class="detail-row-item">
+            <span class="detail-row-key">Native Place</span>
+            <span class="detail-row-val">Jiyapur, Azamgarh, UP</span>
+          </div>
+        </div>
+
+        <div class="contact-card inline-contact">
           <h4>Contact for Alliance · सम्पर्क</h4>
-          <div class="contact-rows">
-            <span><strong>LinkedIn:</strong> linkedin.com/in/nikita-yadav-793917215</span>
-            <span><strong>Portfolio:</strong> nikita-yadav29.github.io/portfolio</span>
-            <span><strong>Phone:</strong> Available on request (via family)</span>
+          <p class="contact-text">Phone: Available on request through family</p>
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/nikita-yadav-793917215/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://nikita-yadav29.github.io/portfolio/" target="_blank" rel="noopener noreferrer">Portfolio</a>
           </div>
+          <p class="footer-note">॥ मांगलिक विवाह हेतु योग्य ॥ · Verified by family</p>
+        </div>
+      </div>
+
+      <div class="tab-panel tab-panel-photos" id="tab-photos" role="tabpanel">
+        <h3 class="section-title">Photographs · फोटोग्राफ · <span id="photoCounter">1 / 7</span></h3>
+        <div class="gallery-body">
+          <button class="carousel-btn prev" id="carouselPrev" type="button" aria-label="Previous photo">‹</button>
+          <div class="carousel-stage">
+            <div class="carousel-track" id="carouselTrack">
+              <div class="carousel-slide active"><img src="pic/web/DSC01532.jpg" alt="Nikita Yadav" width="960" height="1280" decoding="async" fetchpriority="high" /></div>
+              <div class="carousel-slide"><img src="pic/web/DSC01534.jpg" alt="Nikita Yadav" loading="lazy" decoding="async" /></div>
+              <div class="carousel-slide"><img src="pic/web/DSC01536.jpg" alt="Nikita Yadav" loading="lazy" decoding="async" /></div>
+              <div class="carousel-slide"><img src="pic/web/DSC01538.jpg" alt="Nikita Yadav" loading="lazy" decoding="async" /></div>
+              <div class="carousel-slide"><img src="pic/web/DSC01544.jpg" alt="Nikita Yadav" loading="lazy" decoding="async" /></div>
+              <div class="carousel-slide"><img src="pic/web/Image1.jpg" alt="Nikita Yadav" loading="lazy" decoding="async" /></div>
+              <div class="carousel-slide"><img src="pic/web/Image2.jpg" alt="Nikita Yadav" loading="lazy" decoding="async" /></div>
+            </div>
+          </div>
+          <button class="carousel-btn next" id="carouselNext" type="button" aria-label="Next photo">›</button>
         </div>
 
-        <p class="bio-footer-note">॥ मांगलिक विवाह हेतु योग्य ॥ · All information verified by family</p>
+        <div class="thumb-strip" id="thumbStrip">
+          <button class="thumb active" type="button" data-index="0"><img src="pic/web/thumb-DSC01532.jpg" alt="" width="112" height="112" decoding="async" /></button>
+          <button class="thumb" type="button" data-index="1"><img src="pic/web/thumb-DSC01534.jpg" alt="" loading="lazy" decoding="async" /></button>
+          <button class="thumb" type="button" data-index="2"><img src="pic/web/thumb-DSC01536.jpg" alt="" loading="lazy" decoding="async" /></button>
+          <button class="thumb" type="button" data-index="3"><img src="pic/web/thumb-DSC01538.jpg" alt="" loading="lazy" decoding="async" /></button>
+          <button class="thumb" type="button" data-index="4"><img src="pic/web/thumb-DSC01544.jpg" alt="" loading="lazy" decoding="async" /></button>
+          <button class="thumb" type="button" data-index="5"><img src="pic/web/thumb-Image1.jpg" alt="" loading="lazy" decoding="async" /></button>
+          <button class="thumb" type="button" data-index="6"><img src="pic/web/thumb-Image2.jpg" alt="" loading="lazy" decoding="async" /></button>
+        </div>
       </div>
-    </article>
-  </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
 </body>
 
 </html>
